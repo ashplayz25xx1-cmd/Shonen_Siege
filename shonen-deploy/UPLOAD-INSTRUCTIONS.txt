@@ -1,0 +1,21 @@
+SHONEN SIEGE - GITHUB PAGES DEPLOYMENT
+
+1. Keep your existing GitHub repository as your BACKUP. Do not delete it.
+2. On GitHub create a NEW PUBLIC repository named: Shonen-Siege-Game
+3. Do not add a README, .gitignore, or license when creating it.
+4. Extract this folder. Upload EVERYTHING INSIDE THIS FOLDER to the ROOT of the new repository.
+   The repository root must contain:
+     index.html
+     package.json
+     vite.config.ts
+     src/
+     public/
+     .github/
+5. Open the new repository: Settings -> Pages.
+6. Under Build and deployment -> Source, choose: GitHub Actions.
+7. Go to Actions. The workflow "Deploy Shonen Siege to GitHub Pages" should run automatically.
+8. Wait for the workflow to finish with a green check.
+9. Your game URL will be:
+   https://YOUR-GITHUB-USERNAME.github.io/Shonen-Siege-Game/
+
+IMPORTANT: Do NOT upload this ZIP file itself as the website source. Upload the extracted contents.
